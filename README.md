@@ -7,7 +7,7 @@ Map services and data available from U.S. Geological Survey, National Geospatial
 
 ## Quickstart
 
-If you just want to use this module in your own project, just copy [geo_data.gd](https://github.com/HauptmannBoosted/Godot-GeoData-DTED/blob/master/geo-data-demo/geo_data.gd) anywhere into you project.
+If you want to use this module just copy [geo_data.gd](https://github.com/HauptmannBoosted/Godot-GeoData-DTED/blob/master/geo-data-demo/geo_data.gd) anywhere into your project.
 Everything is documented inline, viewing the demo project is advised.
 
 Example for reading a DTED file and querying elevation:
@@ -22,13 +22,13 @@ if error == OK:
 
 ## View Demo
 
-The godot demo project is in [geo-data-demo/](https://github.com/HauptmannBoosted/Godot-GeoData-DTED/tree/master/geo-data-demo) and example geo data you can use for this demo is in [geo-data-test-files/](https://github.com/HauptmannBoosted/Godot-GeoData-DTED/tree/master/geo-data-test-files).
+The example project is in [geo-data-demo/](https://github.com/HauptmannBoosted/Godot-GeoData-DTED/tree/master/geo-data-demo) and geo data you can use for this demo is in [geo-data-test-files/](https://github.com/HauptmannBoosted/Godot-GeoData-DTED/tree/master/geo-data-test-files).
 You are advised to view the short demo for instructions on how to use this module.
 
 ## Where to find Geo Data files (login required)
 
 You can download DTED files from the [United States Geological Survey's Earth Explorer](https://earthexplorer.usgs.gov/).
-Since the process for download DTED files from the Earth Explorer might not be too straight forward for some, here is a small introduction:
+Since the process for download DTED files from the Earth Explorer might not be straight forward for some, here is a small guide:
 
 1. This is the initial view you will see when visiting the website.
 ![1](https://github.com/user-attachments/assets/87e85eb0-39e3-4043-a85d-c4dc139e5a2b)

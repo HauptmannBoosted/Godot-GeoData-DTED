@@ -1,0 +1,63 @@
+[gd_scene load_steps=2 format=3 uid="uid://bkehiwotmr8pt"]
+
+[ext_resource type="Script" path="res://demo.gd" id="1_3qbhj"]
+
+[node name="Demo" type="Control"]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("1_3qbhj")
+
+[node name="LoadGeoDataButton" type="Button" parent="."]
+unique_name_in_owner = true
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -154.0
+offset_top = -28.0
+offset_right = 154.0
+offset_bottom = 28.0
+grow_horizontal = 2
+grow_vertical = 2
+text = "Load DTED"
+
+[node name="LoadGeoDataFileDialog" type="FileDialog" parent="."]
+unique_name_in_owner = true
+title = "Open a File"
+initial_position = 1
+size = Vector2i(587, 344)
+ok_button_text = "Open"
+file_mode = 0
+access = 2
+filters = PackedStringArray("*.dt1", "*.dt2", "*.dt3")
+
+[node name="HeightMapInspectorWindow" type="Window" parent="."]
+unique_name_in_owner = true
+initial_position = 1
+size = Vector2i(500, 500)
+visible = false
+
+[node name="HeightMapTextureRect" type="TextureRect" parent="HeightMapInspectorWindow"]
+unique_name_in_owner = true
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+stretch_mode = 5
+
+[node name="ElevationDisplayLabel" type="Label" parent="HeightMapInspectorWindow"]
+unique_name_in_owner = true
+anchors_preset = 10
+anchor_right = 1.0
+offset_bottom = 23.0
+grow_horizontal = 2
+text = "latitude / longitude"
+horizontal_alignment = 1
+vertical_alignment = 1

@@ -25,6 +25,11 @@ if error == OK:
 The example project is in [geo-data-demo/](https://github.com/HauptmannBoosted/Godot-GeoData-DTED/tree/master/geo-data-demo) and geo data you can use for this demo is in [geo-data-test-files/](https://github.com/HauptmannBoosted/Godot-GeoData-DTED/tree/master/geo-data-test-files).
 You are advised to view the short demo for instructions on how to use this module.
 
+## Intentions
+
+The intend behind this repository is to give you a headstart when starting out with DTED in Godot.
+It is not 100% matured for sure but among other things capable of reading DTED files according to the [DTED specification](https://geoservice.dlr.de/web/dataguide/srtm/pdfs/SRTM-XSAR-DEM-DTED-1.1.pdf), which can save you a lot of initial workload.
+
 ## Where to find Geo Data files (login required)
 
 You can download DTED files from the [United States Geological Survey's Earth Explorer](https://earthexplorer.usgs.gov/).

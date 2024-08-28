@@ -2,12 +2,15 @@
 
 This Repository is a stripped down version of the [Python DTED Module](https://pypi.org/project/dted/),
 originally by Ben Bonenfant, translated into GDScript for the use within the Godot-Game-Engine by me.
+
 DTED means Digital Terrain Elevation Data and can appear in *.dt1, *.dt2 and *.dt3 format.
+
 Map services and data available from U.S. Geological Survey, National Geospatial Program.
 
 ## Quickstart
 
 If you want to use this module just copy [geo_data.gd](https://github.com/HauptmannBoosted/Godot-GeoData-DTED/blob/master/geo-data-demo/geo_data.gd) anywhere into your project.
+
 Everything is documented inline, viewing the demo project is advised.
 
 Example for reading a DTED file and querying elevation:
@@ -23,17 +26,19 @@ if error == OK:
 ## View Demo
 
 The example project is in [geo-data-demo/](https://github.com/HauptmannBoosted/Godot-GeoData-DTED/tree/master/geo-data-demo) and geo data you can use for this demo is in [geo-data-test-files/](https://github.com/HauptmannBoosted/Godot-GeoData-DTED/tree/master/geo-data-test-files).
-You are advised to view the short demo for instructions on how to use this module.
+
+You are advised to view the short demo for detailed information on how to use this module and how it works.
 
 ## Intentions
 
 The intend behind this repository is to give you a headstart when starting out with DTED in Godot.
+
 It is not 100% matured for sure but among other things capable of reading DTED files according to the [DTED specification](https://geoservice.dlr.de/web/dataguide/srtm/pdfs/SRTM-XSAR-DEM-DTED-1.1.pdf), which can save you a lot of initial workload.
 
 ## Where to find Geo Data files (login required)
 
 You can download DTED files from the [United States Geological Survey's Earth Explorer](https://earthexplorer.usgs.gov/).
-Since the process for download DTED files from the Earth Explorer might not be straight forward for some, here is a small guide:
+Since the process for downloading DTED files from the Earth Explorer might not be straight forward for some, here is a small guide:
 
 1. This is the initial view you will see when visiting the website.
 ![1](https://github.com/user-attachments/assets/87e85eb0-39e3-4043-a85d-c4dc139e5a2b)
